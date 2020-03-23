@@ -83,8 +83,8 @@ class MyApp extends StatelessWidget {
               semanticContainer: true,
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: 
-              Image.network(
-              'https://placeimg.com/640/480/any',
+              Image.asset(
+              'assets/img/profil.jpg',
               fit: BoxFit.fill,
               ),
               shape: RoundedRectangleBorder(
